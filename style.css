@@ -1,0 +1,53 @@
+/*
+Theme Name: Comunitea
+Theme URI: https://desarrolloweb.longarela.eu/
+Author: Carlos Longarela
+Author URI: https://desarrolloweb.longarela.eu/
+Description: Comunitea, Tema hijo de Bridge personalizado.
+Version: 1.0.0
+Template: bridge
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: bridge
+Domain Path: /languages/
+
+This theme, like WordPress, is licensed under the GPL.
+
+*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Formulario de contacto en menú deplegable */
+#form-contacto-menu input[type='text'],
+#form-contacto-menu input[type='email'],
+#form-contacto-menu textarea {
+    margin: 3px 0 0;
+    padding: 5px;
+    resize: none;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+#form-contacto-menu label {
+    font-size: 11px;
+    line-height: 12px;
+}
+
+#form-contacto-menu p {
+    margin-bottom: 6px;
+}
+
+#form-contacto-menu textarea {
+	height: 100px;
+}
+
+#form-contacto-menu input[type='submit'] {
+    padding: 10px;
+    height: 25px;
+    line-height: 25px;
+}
